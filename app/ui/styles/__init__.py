@@ -1,0 +1,1 @@
+"""Identidade visual centralizada."""

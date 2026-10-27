@@ -1,0 +1,16 @@
+# Interface
+PySide6>=6.7,<7
+# Voz (Etapa 3): captura, cálculo do VAD e STT local
+numpy>=1.26
+sounddevice>=0.4.6      # microfone (PortAudio; no Linux: sudo apt install libportaudio2)
+faster-whisper>=1.0     # STT local pt-BR (CTranslate2); o modelo é baixado à parte
+# Voz do Jarvis (Etapa 4): TTS neural local; embute o espeak-ng (GPL) como fonemizador; o modelo é baixado à parte
+kokoro-onnx>=0.6,<1
+# IA (Etapa 5): SDK oficial da Anthropic; as mensagens enviadas à IA saem do computador
+anthropic>=1.13,<2
+# Reamostragem com filtro anti-aliasing quando o microfone não aceita 16 kHz
+soxr>=0.5
+# Etapa 8: cofre do sistema para credenciais (endereços iCal privados e senha de aplicativo do Gmail)
+keyring>=24
+# Etapa 8: o Windows não traz o banco de fusos horários que a agenda precisa (zoneinfo)
+tzdata>=2024.1; sys_platform == "win32"

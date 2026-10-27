@@ -1,0 +1,26 @@
+{
+  "_comentario": "Copie para data/actions.json e edite. Só o que está aqui e nos padrões pode ser aberto ou fechado. A IA não altera este arquivo.",
+  "allowed_roots": ["D:/Projetos"],
+  "apps": {
+    "discord": {
+      "label": "Discord",
+      "aliases": ["discord"],
+      "exe": ["%LOCALAPPDATA%\\Discord\\Update.exe"],
+      "args": ["--processStart", "Discord.exe"],
+      "closable": true,
+      "process": "Discord.exe"
+    }
+  },
+  "folders": {
+    "projetos": { "label": "Projetos", "path": "D:/Projetos", "aliases": ["projetos", "meus projetos"] }
+  },
+  "projects": {
+    "jarvis": { "label": "Jarvis", "path": "D:/Projetos/jarvis", "aliases": ["jarvis", "assistente"], "app": "vscode" }
+  },
+  "sites": {
+    "docs-python": { "label": "Documentação do Python", "url": "https://docs.python.org/3/", "aliases": ["documentacao do python", "docs python"] }
+  },
+  "remove": [],
+  "confirm": ["close_app"],
+  "confirmation_ttl_s": 30
+}

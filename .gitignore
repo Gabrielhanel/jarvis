@@ -1,0 +1,28 @@
+# Ambiente e cache do Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dados locais e segredos (nunca versionar)
+.env
+data/*.db
+data/*.db-*
+data/settings.json
+data/actions.json
+
+# Build / empacotamento futuro
+build/
+dist/
+*.spec
+
+# Temporários e editores
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Modelos de voz (grandes): baixe com scripts/download_model.py
+assets/models/*
+!assets/models/.gitkeep
