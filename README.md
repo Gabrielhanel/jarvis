@@ -6,6 +6,10 @@ O Jarvis combina reconhecimento e síntese de voz executados localmente com uma 
 
 > **Privacidade:** o reconhecimento de voz e a síntese de voz usam modelos locais depois de baixados. Quando o modo de conversa com IA está ativo, as mensagens encaminhadas à Anthropic saem do computador. O Jarvis não envia mensagens ao abrir o aplicativo nem envia transcrições parciais.
 
+## Sobre o projeto
+
+> Este projeto foi desenvolvido com vibecoding, utilizando IA como apoio durante o desenvolvimento. A principal proposta foi aprender na prática, especialmente sobre engenharia de prompt, refinamento de instruções e como transformar ideias em funcionalidades reais.
+
 ## Funcionalidades
 
 - **Interface desktop nativa:** conversa, estado do assistente, configurações e painéis de integração.
